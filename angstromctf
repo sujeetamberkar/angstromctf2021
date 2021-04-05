@@ -5,3 +5,13 @@ Archaic
  Fish
     Run stegsolve 
       java -jar stegsolve.jar 
+Keysar v2
+    identify the cipher using 
+    https://www.boxentriq.com/code-breaking/cipher-identifier#bifid-cipher
+    
+    use brute force to find meaningful key 
+    use that key  decode the last line and find the flag 
+    https://www.boxentriq.com/code-breaking/cryptogram
+    
+  
+    
