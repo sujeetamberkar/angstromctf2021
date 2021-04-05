@@ -25,7 +25,7 @@ Relatively Simple Algorithm
   print(hex(m) [2:-1].decode('hex'))
 
 sosig
-  /RsaCtfTool.py --uncipherValueOfM -e valueOfE -n valueOfN
+  /RsaCtfTool.py --uncipher ValueOfM -e valueOfE -n valueOfN
   convert the hexcode into ASCII  
   actf{d0ggy!!!111!1}
   
