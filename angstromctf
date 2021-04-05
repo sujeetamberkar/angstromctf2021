@@ -13,5 +13,11 @@ Keysar v2
     use that key  decode the last line and find the flag 
     https://www.boxentriq.com/code-breaking/cryptogram
     
+sosig
+  /RsaCtfTool.py --uncipherValueOfM -e valueOfE -n valueOfN
+  convert the hexcode into ASCII  
+  actf{d0ggy!!!111!1}
+  
+    
   
     
