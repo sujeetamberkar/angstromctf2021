@@ -1,5 +1,7 @@
 Archaic
   go to the location
   using vi open it 
-  press enter to get the flag 
- 
+  press enter to get the flag  
+ Fish
+    Run stegsolve 
+      java -jar stegsolve.jar 
