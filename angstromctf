@@ -1,19 +1,27 @@
 Sanity Check
-  Join discord server 
+  Join the discord server to get the flag in the pinned messages 
+  
+  
 Archaic
-  go to the location
-  using vi open it 
-  press enter to get the flag  
+  Go to the given location
+  Use 'vi' command to open 'archive.tar.gz'
+  Press enter to get the flag form flag.txt 
+  
+  
  Fish
-    Run stegsolve 
-      java -jar stegsolve.jar 
+  Run stegsolve
+  java -jar stegsolve.jar 
+  The flag is visible in the image itself
+  
+  
 Keysar v2
-    identify the cipher using 
-    https://www.boxentriq.com/code-breaking/cipher-identifier#bifid-cipher
-    
-    use brute force to find meaningful key 
-    use that key  decode the last line and find the flag 
-    https://www.boxentriq.com/code-breaking/cryptogram
+    Identify the cipher using 
+    "https://www.boxentriq.com/code-breaking/cipher-identifier#bifid-cipher"
+    to establishit as a substitution cipher    
+    Use brute force to find a meaningful key 
+    Use that key to decode the last line and find the flag. 
+    "https://www.boxentriq.com/code-breaking/cryptogram"
+
 
 Relatively Simple Algorithm
   use p and q to find n, phi
@@ -25,8 +33,9 @@ Relatively Simple Algorithm
   print(hex(m) [2:-1].decode('hex'))
 
 sosig
+  Use the RsaCtfTool as mentioned below:
   /RsaCtfTool.py --uncipher ValueOfM -e valueOfE -n valueOfN
-  convert the hexcode into ASCII  
+  Convert the hexcode into ASCII  
   actf{d0ggy!!!111!1}
   
     
