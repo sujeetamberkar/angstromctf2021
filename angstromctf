@@ -38,6 +38,6 @@ sosig
   Convert the hexcode into ASCII  
   actf{d0ggy!!!111!1}
   
-    
-  
-    
+Exclusive Cipher
+  Decrypt the given hexcode using bruteforce to get the flag
+  "https://www.dcode.fr/xor-cipher"
